@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en"> 
+  <head>
+    <title>Contabilis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900,900i%7CPT+Serif:400,700">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Carregando...</p>
+      </div>
+    </div>
+    <div class="page"><a class="section section-banner d-none d-xl-flex" href="#" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )"><img src="images/banner/foreground-04-1600x60.png" srcset="images/banner/foregroundd-04-1600x60.png 1x, images/banner/foreground-04-3200x120.png 2x" alt="" width="1600" height="310"></a>
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel"> 
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand"><a href="index.html"><img class="brand-logo-light" src="images/logo 147x57.png" alt="" width="140" height="57" srcset="images/logo-default-280x113.png 2x"/></a></div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="sobre.html">Sobre</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="servicos.html">Servços</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contatos</a>
+                      </li>
+                    </ul><a class="button button-white button-sm" href="#">Agendar visita</a>
+                  </div>
+                </div><a class="button button-white button-sm" href="#">Agendar visita</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Swiper-->
+      <section class="section section-lg section-main-bunner section-main-bunner-filter text-center">
+        <div class="main-bunner-img" style="background-image: url(&quot;images/bg-bunner-2.png&quot;); background-size: cover;"></div>
+        <div class="main-bunner-inner">
+          <div class="container">
+            <div class="box-default">
+              <h1 class="box-default-title">Bem-vindo</h1>
+              <div class="box-default-decor"></div>
+              <p class="big box-default-text">Na Contabilis Ltda, acreditamos que o conforto e a localização estratégica de nosso escritório contribuem para estabelecer um ambiente propício para o sucesso dos negócios de nossos clientes. Estamos comprometidos em proporcionar uma experiência positiva em todos os aspectos.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="bg-gray-1">
+        <section class="section-transform-top">
+          <div class="container">
+            <div class="box-booking">
+              <form class="rd-form rd-mailform booking-form">
+                <div>
+                  <p class="booking-title">Nome</p>
+                  <div class="form-wrap">
+                    <input class="form-input" id="booking-name" type="text" name="name" data-constraints="@Required">
+                    <label class="form-label" for="booking-name">Seu nome</label>
+                  </div>
+                </div>
+                <div>
+                  <p class="booking-title">Fone</p>
+                  <div class="form-wrap">
+                    <input class="form-input" id="booking-phone" type="text" name="phone" data-constraints="@Numeric">
+                    <label class="form-label" for="booking-phone">Seu Número</label>
+                  </div>
+                </div>
+                <div>
+                  <p class="booking-title">Data</p>
+                  <div class="form-wrap form-wrap-icon"><span class="icon mdi mdi-calendar-text"></span>
+                    <input class="form-input" id="booking-date" type="text" name="date" data-constraints="@Required" data-time-picker="date">
+                  </div>
+                </div>
+                <div>
+                  <p class="booking-title">Pessoas</p>
+                  <div class="form-wrap">
+                    <select data-placeholder="2">
+                      <option label="placeholder"></option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <button class="button button-lg button-gray-600" type="submit">Ver disponibilidade</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="section section-lg section-inset-1 bg-gray-1 pt-lg-0">
+          <div class="container">
+            <div class="row row-50 justify-content-xl-between align-items-lg-center">
+              <div class="col-lg-6 wow fadeInLeft">
+                <div class="box-image"><img class="box-image-static" src="images/home-3-1-483x327.jpg" alt="" width="483" height="327"/><img class="box-image-position" src="images/home-3-2-341x391.png" alt="" width="341" height="391"/>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-5 wow fadeInRight">
+                <h2>Sobre nossa contabilidade</h2>
+                <p>Localizada em Uruguaiana, no Rio Grande do Sul, a sede da Contabilis Ltda é estrategicamente situada em uma área de fácil acesso e conveniência.</p>
+                <p>Nossa localização privilegiada permite que nossos clientes nos encontrem com facilidade, seja por meio de transporte público ou veículos particulares.</p><img src="images/signature-1-140x50.png" alt="" width="140" height="50"/>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Featured Offers-->
+      <section class="section section-lg bg-default">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-md-9 col-lg-7 wow-outer">
+              <div class="wow slideInDown">
+                <h2>Nossos Departamentos</h2>
+                <p class="text-opacity-80">Trabalhamos com os departamentos, Pessoal, Contabil, Fiscal, e Financeiros. Temos os melhores profisionais.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row row-20 row-lg-30">
+            <div class="col-md-6 col-lg-4 wow-outer">
+              <div class="wow fadeInUp">
+                <div class="product-featured">
+                  <div class="product-featured-figure"><img src="images/product-1-370x395.jpg" alt="" width="370" height="395"/>
+                    <div class="product-featured-button"><a class="button button-primary" href="#">order now</a></div>
+                  </div>
+                  <div class="product-featured-caption">
+                    <h4><a class="product-featured-title" href="#">Pessoal</a></h4>
+                    <p class="big">Custo R$20,00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow-outer">
+              <div class="wow fadeInUp">
+                <div class="product-featured">
+                  <div class="product-featured-figure"><img src="images/product-2-370x395.jpg" alt="" width="370" height="395"/>
+                    <div class="product-featured-button"><a class="button button-primary" href="#">order now</a></div>
+                  </div>
+                  <div class="product-featured-caption">
+                    <h4><a class="product-featured-title" href="#">Fiscal</a></h4>
+                    <p class="big">Custo R$20,00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow-outer">
+              <div class="wow fadeInUp">
+                <div class="product-featured">
+                  <div class="product-featured-figure"><img src="images/product-3-370x395.jpg" alt="" width="370" height="395"/>
+                    <div class="product-featured-button"><a class="button button-primary" href="#">order now</a></div>
+                  </div>
+                  <div class="product-featured-caption">
+                    <h4><a class="product-featured-title" href="#">Financeiro</a></h4>
+                    <p class="big">Custo R$20,00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-lg bg-gray-1">
+        <div class="container">
+          <h2 class="text-center">Nossos demais serviços</h2>
+          <div class="row">
+            <div class="col-12">
+              <div class="tabs-custom tabs-horizontal tabs-classic" id="tabs-1">
+                <ul class="nav nav-tabs nav-tabs-classic">
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-1-1" data-toggle="tab">Simples Nacional</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-2" data-toggle="tab">Lucro real</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-3" data-toggle="tab">Lucro Presumido</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="tabs-1-1">
+                    <div class="box-event-modern">
+                      <div class="event-item-modern">
+                        <p class="event-time">R$25.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Departamento Pessoal</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quaerat architecto repellendus delectus quam facere beatae expedita, accusamus officia culpa ex perspiciatis quidem excepturi ducimus libero aliquam temporibus alias fuga!</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">R$20.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Departamento Fiscal</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi quibusdam voluptatem ipsum natus asperiores libero, doloribus architecto magni. Consequuntur sapiente atque, tenetur minima dolores commodi adipisci! Non, debitis! Nulla.</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">$20.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Departamento Contábil</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis suscipit pariatur, dolores quasi voluptates, ratione expedita temporibus eius ad laborum et officia omnis earum libero possimus cupiditate neque? Nesciunt, qui!</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">$20.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Depatamento Societário</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum soluta a quasi! Perferendis fuga cum, eos repellat dolorem vero aliquam qui laboriosam modi, quos minus saepe dolorum laborum. Asperiores, a.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-1-2">
+                    <div class="box-event-modern">
+                      <div class="event-item-modern">
+                        <p class="event-time">R$20.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Departamento Pessoal</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque omnis dignissimos assumenda! At necessitatibus cumque sapiente dignissimos pariatur, praesentium eius aspernatur culpa aut, commodi temporibus eaque. Ducimus perspiciatis optio sapiente.</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">R$20.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Departamento Fiscal</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sapiente quibusdam perferendis laborum atque neque voluptatem perspiciatis. Dolores recusandae expedita doloremque, aliquam adipisci odio magnam, possimus quae doloribus explicabo sed.</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">R$20.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Departamento Contábil</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus asperiores excepturi praesentium culpa hic inventore id laborum assumenda, omnis, ullam veniam ratione repudiandae non expedita doloribus harum magni minus nobis.</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">R$20.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Departamento Financeiro</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, inventore amet, laudantium, natus quaerat modi impedit libero accusantium unde deleniti quibusdam. Hic assumenda quas enim, inventore vitae officiis magnam natus!</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-1-3">
+                    <div class="box-event-modern">
+                      <div class="event-item-modern">
+                        <p class="event-time">R$20.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Departamento Pessoal</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ut, reprehenderit tempore dolor excepturi inventore ea! Eveniet blanditiis quis perferendis cumque quae voluptates sequi, nulla harum vitae voluptatibus mollitia reiciendis.</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">R$20.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Departamento Fiscal</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aliquid voluptates, in ducimus, reprehenderit eius sunt, cumque iste porro molestias tempore odit. Nisi, laudantium sapiente aut amet ullam perferendis corrupti!</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">R$20.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Departamento Contábil</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quaerat deserunt, maxime voluptatum voluptatem ex culpa. Nihil amet, perspiciatis accusantium rerum maiores reiciendis officia saepe veniam qui aperiam expedita omnis!</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <p class="event-time">R$20.00</p>
+                        <h4 class="event-item-modern-title"><a href="#">Departamento Financeiro</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione culpa, molestiae possimus explicabo eius dicta nihil quas maxime, provident laborum natus porro veniam quos vel aliquid voluptate velit ipsam eveniet.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="row isotope-wrap">
+          <!-- Isotope Content-->
+          <div class="col-lg-12">
+            <div class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery" data-lightgallery="group" data-lg-thumbnail="false">
+              <div class="row no-gutters row-condensed">
+                <div class="col-12 col-sm-6 col-md-4 isotope-item wow-outer" data-filter="*">
+                  <div class="wow slideInDown">
+                    <div class="gallery-item-classic"><img src="images/gallery-masonry-1-640x429.jpg" alt="" width="640" height="429"/>
+                      <div class="gallery-item-classic-caption"><a href="images/gallery-masonry-1-original.jpg" data-lightgallery="item">zoom</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 isotope-item wow-outer" data-filter="Category 3">
+                  <div class="wow slideInDown">
+                    <div class="gallery-item-classic"><img src="images/gallery-masonry-2-640x429.jpg" alt="" width="640" height="429"/>
+                      <div class="gallery-item-classic-caption"><a href="images/gallery-masonry-2-original.jpg" data-lightgallery="item">zoom</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 isotope-item wow-outer" data-filter="Category 3">
+                  <div class="wow slideInDown">
+                    <div class="gallery-item-classic"><img src="images/gallery-masonry-3-640x429.jpg" alt="" width="640" height="429"/>
+                      <div class="gallery-item-classic-caption"><a href="images/gallery-masonry-3-original.jpg" data-lightgallery="item">zoom</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 isotope-item wow-outer" data-filter="Category 3">
+                  <div class="wow fadeInUp">
+                    <div class="gallery-item-classic"><img src="images/gallery-masonry-4-960x429.jpg" alt="" width="960" height="429"/>
+                      <div class="gallery-item-classic-caption"><a href="images/gallery-masonry-4-original.jpg" data-lightgallery="item">zoom</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 isotope-item wow-outer" data-filter="Category 2">
+                  <div class="wow fadeInUp">
+                    <div class="gallery-item-classic"><img src="images/gallery-masonry-5-960x429.jpg" alt="" width="960" height="429"/>
+                      <div class="gallery-item-classic-caption"><a href="images/gallery-masonry-5-original.jpg" data-lightgallery="item">zoom</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-lg bg-default">
+        <div class="container wow-outer">
+          <h2 class="text-center wow slideInDown">Notícias recentes</h2>
+          <!-- Owl Carousel-->
+          <div class="owl-carousel wow fadeInUp" data-items="1" data-md-items="2" data-lg-items="3" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false">
+            <div class="post-corporate"><a class="badge" href="#">Jul 02, 2023</a>
+              <h4 class="post-corporate-title"><a href="#">Noticias sobre contabilidade</a></h4>
+              <div class="post-corporate-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nesciunt temporibus, quasi illum sapiente hic repellendus ipsa sed quibusdam assumenda eum non voluptas nostrum, modi maxime exercitationem veniam.</p>
+              </div><a class="post-corporate-link" href="#">Continue lendo<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Jul 12, 2023</a>
+              <h4 class="post-corporate-title"><a href="#">Noticias sobre contabilidade</a></h4>
+              <div class="post-corporate-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, modi. Maiores nobis nesciunt accusamus quasi magni adipisci illo? Et maiores ipsa id illo in itaque possimus nam aliquam pariatur quae?</p>
+              </div><a class="post-corporate-link" href="#">Continue lendo<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">ago 02, 2023</a>
+              <h4 class="post-corporate-title"><a href="#">Noticias sobre contabilidade</a></h4>
+              <div class="post-corporate-text">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error modi sunt nobis quos placeat officiis eaque laboriosam suscipit reiciendis minus ea neque libero praesentium harum delectus quo, earum facere dolores!</p>
+              </div><a class="post-corporate-link" href="#">Continue lendo<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Ago 15, 2023</a>
+              <h4 class="post-corporate-title"><a href="#">Noticias sobre contabilidade</a></h4>
+              <div class="post-corporate-text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi esse obcaecati, blanditiis optio natus exercitationem dicta aut ratione, at ab deleniti quia eveniet amet quibusdam quisquam aliquam? Facilis, eum cupiditate!</p>
+              </div><a class="post-corporate-link" href="#">Continue lendo<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Set 15, 2023</a>
+              <h4 class="post-corporate-title"><a href="#">Noticias sobre contabilidade</a></h4>
+              <div class="post-corporate-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illum voluptatem corrupti facere excepturi? Id fugit ratione corporis harum hic inventore libero pariatur molestiae voluptates laborum, excepturi ipsum, maxime laboriosam.</p>
+              </div><a class="post-corporate-link" href="#">Continue lendo<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Set 28, 2023</a>
+              <h4 class="post-corporate-title"><a href="#">Noticias sobre contabilidade</a></h4>
+              <div class="post-corporate-text">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio consectetur omnis quo veritatis? Vero reprehenderit explicabo placeat doloremque sequi ipsa. Consequuntur dolores doloribus, alias magnam repellendus sit sed vero deleniti.</p>
+              </div><a class="post-corporate-link" href="#">Continue lendo<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Out 05, 2023</a>
+              <h4 class="post-corporate-title"><a href="#">Noticias sobre contabilidade</a></h4>
+              <div class="post-corporate-text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum voluptatem iusto et vitae quae magni hic id nesciunt! Ullam, placeat in omnis rerum natus magnam adipisci dicta laborum sapiente. Perferendis.</p>
+              </div><a class="post-corporate-link" href="#">Continue lendo<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Out 17, 2023</a>
+              <h4 class="post-corporate-title"><a href="#">Noticias sobre contabilidade</a></h4>
+              <div class="post-corporate-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cumque vero odit quasi porro optio aspernatur. Quia delectus consequuntur facilis nihil veniam rem tempora ut at sed. Optio, iure voluptate!</p>
+              </div><a class="post-corporate-link" href="#">Continue lendo<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge" href="#">Nov 10, 2023</a>
+              <h4 class="post-corporate-title"><a href="#">Noticias sobre contabilidade</a></h4>
+              <div class="post-corporate-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores harum, officiis voluptas nam corrupti, sapiente dolore autem provident necessitatibus dolorum sit quisquam hic repellat laudantium illo deserunt sunt aspernatur! Voluptatibus?</p>
+              </div><a class="post-corporate-link" href="#">Continue lendo<span class="icon linearicons-arrow-right"></span></a>
+            </div>
+          </div>
+        </div>
+      </section><a class="section section-banner" href="#" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
+      <!-- Page Footer-->
+      <footer class="section footer-minimal context-dark">
+        <div class="container wow-outer">
+          <div class="wow fadeIn">
+            <div class="row row-60">
+              <div class="col-12"><a href="index.html"><img src="images/logo 147x57.png" alt="" width="140" height="57" srcset="images/logo-default-280x113.png 2x"/></a></div>
+              <div class="col-12">
+                <ul class="footer-minimal-nav">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="contacts.html">Contatos</a></li>
+                  <li><a href="#">Imagens</a></li>
+                  <li><a href="about-us.html">Sobre</a></li>
+                </ul>
+              </div>
+              <div class="col-12">
+                <ul class="social-list">
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-youtube-play" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-pinterest-p" href="#"></a></li>
+                </ul>
+              </div>
+            </div>
+            <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Elton</span><span>.&nbsp;</span><span>Todos os direitos reservados.</span><span>&nbsp;</span><a href="#">Politica de prvacidade</a>. Designer&nbsp;de&nbsp;<a href="#">EltonAvelino</a></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
